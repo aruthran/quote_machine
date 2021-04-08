@@ -15,17 +15,16 @@ h1 {
 div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
-    padding-top: 50px;
+    margin-top: 12px;
 }
 
 
 .new_quote {
-    margin-top: 25px;
     background-color: plum;
     color: #fff;
     box-shadow: 5px 5px 10px transparent;
     margin-left: -25px;
-    position: fixed;
+    position: absolute;
     border-radius: 10px;
     border: 0;
     padding: 10px;
@@ -178,8 +177,13 @@ div {
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 828px) {
+	body {
+		background-image: url("background_image3.jpg");
+	}
+}
 
+@media screen and (max-width: 480px) {
 	.social-panel-container.visible {
 		transform: translateX(0px);
 	}
